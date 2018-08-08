@@ -1,0 +1,4 @@
+*.jpg
+*.png
+/scss/components/*
+!/scss/components/_variables.scss
