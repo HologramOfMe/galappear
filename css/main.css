@@ -10596,7 +10596,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   /*shape-rendering: crispEdges;*/
 }
 
-/* line 8, /home/scott/Documents/Code/Udemy/Materialize/galappear/scss/main.scss */
+/* line 17, /home/scott/Documents/Code/Udemy/Materialize/galappear/scss/main.scss */
 .main-header {
   background: url(../img/pattern.png);
   color: #fff;
@@ -10604,15 +10604,44 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   margin-bottom: 30px;
 }
 
-/* line 14, /home/scott/Documents/Code/Udemy/Materialize/galappear/scss/main.scss */
+/* line 23, /home/scott/Documents/Code/Udemy/Materialize/galappear/scss/main.scss */
 .main-header h1 {
   margin: 0;
   padding-top: 30px;
 }
 
-/* line 24, /home/scott/Documents/Code/Udemy/Materialize/galappear/scss/main.scss */
+/* line 29, /home/scott/Documents/Code/Udemy/Materialize/galappear/scss/main.scss */
 body {
   background: #00796b;
+  color: #ffffff;
+}
+
+/* line 34, /home/scott/Documents/Code/Udemy/Materialize/galappear/scss/main.scss */
+.img-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+}
+
+/* line 41, /home/scott/Documents/Code/Udemy/Materialize/galappear/scss/main.scss */
+.card-content, .modal-footer {
+  color: #00796b;
+}
+
+/* line 45, /home/scott/Documents/Code/Udemy/Materialize/galappear/scss/main.scss */
+.page-footer {
+  background-color: #212121;
+}
+
+/* line 48, /home/scott/Documents/Code/Udemy/Materialize/galappear/scss/main.scss */
+.page-footer .footer-copyright {
+  background-color: #424242;
+}
+
+/* line 53, /home/scott/Documents/Code/Udemy/Materialize/galappear/scss/main.scss */
+.row-1, .row-2, .row-3 {
+  opacity: 0;
 }
 
 /*# sourceMappingURL=../css/main.map */

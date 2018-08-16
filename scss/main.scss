@@ -5,6 +5,15 @@
 $header-bg: url(../img/pattern.png);
 $header-height: 300px;
 
+// text color function
+@function set-text-color($color) {
+  @if(lightness($color) > 50) {
+    @return #000000;
+  }@else {
+    @return #ffffff;
+  }
+}
+
 .main-header {
   background: $header-bg;
   color: #fff;
@@ -17,10 +26,30 @@ $header-height: 300px;
   }
 }
 
-// ============================
-// HTML Elements
-// ============================
-
 body {
   background: $primary-color;
+  color: set-text-color($primary-color);
+}
+
+.img-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+}
+
+.card-content, .modal-footer {
+  color: $primary-color;
+}
+
+.page-footer {
+  background-color: $secondary-color;
+
+  .footer-copyright {
+    background-color: $secondary-color-light;
+  }
+}
+
+.row-1, .row-2, .row-3 {
+  opacity: 0;
 }
